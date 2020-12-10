@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<definitions namespace="http://www.montera.com.au/spec/DMN/0088-reursion" name="0088-reursion" id="_i9fboPUUEeesLuP4RHs4vA" xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<definitions namespace="http://www.montera.com.au/spec/DMN/0088-reursion"
+             name="0088-reursion"
+             id="_370810c0-3a98-47b2-82fc-926683c2b7d0"
+             xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/"
+             xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/"
+             xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/"
+             xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <description>Recursion</description>
 
     <itemDefinition name="iTreeNode">
@@ -41,9 +48,10 @@
             <literalExpression>
                 <text>if (count(node.children) = 0)
                     then
-                        node.value
+                    node.value
                     else
-                        node.value + sum(for n in node.children return scanTree(n))</text>
+                    node.value + sum(for n in node.children return scanTree(n))
+                </text>
             </literalExpression>
         </encapsulatedLogic>
     </businessKnowledgeModel>

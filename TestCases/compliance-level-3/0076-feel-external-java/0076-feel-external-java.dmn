@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<definitions namespace="http://www.montera.com.au/spec/DMN/0076-feel-external-java" name="0076-feel-external-java" id="_i9fboPUUEeesLuP4RHs4vA" xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<definitions namespace="http://www.montera.com.au/spec/DMN/0076-feel-external-java"
+             name="0076-feel-external-java"
+             id="_8c5d6629-34e4-4abc-887a-91a0a9a79da2"
+             xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/"
+             xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/"
+             xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/"
+             xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <description>FEEL external Java functions</description>
 
     <decision name="boxed_001" id="_boxed_001">
@@ -91,7 +99,9 @@
             <contextEntry>
                 <variable name="mathMaxString"/>
                 <literalExpression>
-                    <text>function(s1, s2) external {java:{class:"java.lang.Math",method signature:"max(java.lang.String, java.lang.String)"}}</text>
+                    <text>function(s1, s2) external {java:{class:"java.lang.Math",method
+                        signature:"max(java.lang.String, java.lang.String)"}}
+                    </text>
                 </literalExpression>
             </contextEntry>
             <contextEntry>
@@ -108,7 +118,9 @@
             <contextEntry>
                 <variable name="maxDouble"/>
                 <literalExpression>
-                    <text>function(n1,n2) external {java:{class:"java.lang.Math",method signature:"max(double,double)"}}</text>
+                    <text>function(n1,n2) external {java:{class:"java.lang.Math",method
+                        signature:"max(double,double)"}}
+                    </text>
                 </literalExpression>
             </contextEntry>
             <contextEntry>
@@ -125,7 +137,9 @@
             <contextEntry>
                 <variable name="max"/>
                 <literalExpression>
-                    <text>function(n1,n2) external {java:{class:"java.lang.Math",method signature:"max(double,double)"}}</text>
+                    <text>function(n1,n2) external {java:{class:"java.lang.Math",method
+                        signature:"max(double,double)"}}
+                    </text>
                 </literalExpression>
             </contextEntry>
             <contextEntry>
@@ -142,7 +156,8 @@
             <contextEntry>
                 <variable name="max"/>
                 <literalExpression>
-                    <text>function(n1,n2) external {java:{class:"java.lang.Math",method signature:"max(int,int)"}}</text>
+                    <text>function(n1,n2) external {java:{class:"java.lang.Math",method signature:"max(int,int)"}}
+                    </text>
                 </literalExpression>
             </contextEntry>
             <contextEntry>
@@ -159,7 +174,8 @@
             <contextEntry>
                 <variable name="valueOf"/>
                 <literalExpression>
-                    <text>function(s1) external {java:{class:"java.lang.Short",method signature:"valueOf(short)"}}</text>
+                    <text>function(s1) external {java:{class:"java.lang.Short",method signature:"valueOf(short)"}}
+                    </text>
                 </literalExpression>
             </contextEntry>
             <contextEntry>
@@ -193,7 +209,8 @@
             <contextEntry>
                 <variable name="valueOf"/>
                 <literalExpression>
-                    <text>function(c1) external {java:{class:"java.lang.String",method signature:"valueOf(char)"}}</text>
+                    <text>function(c1) external {java:{class:"java.lang.String",method signature:"valueOf(char)"}}
+                    </text>
                 </literalExpression>
             </contextEntry>
             <contextEntry>
@@ -210,7 +227,8 @@
             <contextEntry>
                 <variable name="valueOf"/>
                 <literalExpression>
-                    <text>function(c1) external {java:{class:"java.lang.String",method signature:"valueOf(char)"}}</text>
+                    <text>function(c1) external {java:{class:"java.lang.String",method signature:"valueOf(char)"}}
+                    </text>
                 </literalExpression>
             </contextEntry>
             <contextEntry>
@@ -227,7 +245,8 @@
             <contextEntry>
                 <variable name="max"/>
                 <literalExpression>
-                    <text>function(n1,n2) external {java:{class:"java.lang.Math",method signature:"max(long,long)"}}</text>
+                    <text>function(n1,n2) external {java:{class:"java.lang.Math",method signature:"max(long,long)"}}
+                    </text>
                 </literalExpression>
             </contextEntry>
             <contextEntry>
@@ -244,7 +263,8 @@
             <contextEntry>
                 <variable name="max"/>
                 <literalExpression>
-                    <text>function(n1,n2) external {java:{class:"java.lang.Math",method signature:"max(float,float)"}}</text>
+                    <text>function(n1,n2) external {java:{class:"java.lang.Math",method signature:"max(float,float)"}}
+                    </text>
                 </literalExpression>
             </contextEntry>
             <contextEntry>
@@ -261,7 +281,9 @@
             <contextEntry>
                 <variable name="valueOf"/>
                 <literalExpression>
-                    <text>function(n1) external {java:{class:"java.lang.Integer",method signature:"valueOf(java.lang.String)"}}</text>
+                    <text>function(n1) external {java:{class:"java.lang.Integer",method
+                        signature:"valueOf(java.lang.String)"}}
+                    </text>
                 </literalExpression>
             </contextEntry>
             <contextEntry>
@@ -278,7 +300,9 @@
             <contextEntry>
                 <variable name="valueOf"/>
                 <literalExpression>
-                    <text>function(n1) external {java:{class:"java.lang.Float",method signature:"valueOf(java.lang.String)"}}</text>
+                    <text>function(n1) external {java:{class:"java.lang.Float",method
+                        signature:"valueOf(java.lang.String)"}}
+                    </text>
                 </literalExpression>
             </contextEntry>
             <contextEntry>
@@ -295,7 +319,9 @@
             <contextEntry>
                 <variable name="valueOf"/>
                 <literalExpression>
-                    <text>function(n1) external {java:{class:"java.lang.Double",method signature:"valueOf(java.lang.String)"}}</text>
+                    <text>function(n1) external {java:{class:"java.lang.Double",method
+                        signature:"valueOf(java.lang.String)"}}
+                    </text>
                 </literalExpression>
             </contextEntry>
             <contextEntry>
@@ -312,7 +338,9 @@
             <contextEntry>
                 <variable name="format"/>
                 <literalExpression>
-                    <text>function(s1, n1) external {java:{class:"java.lang.String",method signature:"format(java.lang.String, [Ljava.lang.Object;)"}}</text>
+                    <text>function(s1, n1) external {java:{class:"java.lang.String",method
+                        signature:"format(java.lang.String, [Ljava.lang.Object;)"}}
+                    </text>
                 </literalExpression>
             </contextEntry>
             <contextEntry>

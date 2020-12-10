@@ -28,7 +28,7 @@ For this effort, here are the goals to achieve in order to consider this a succe
 * **Deliverables**: We will collect and organize test cases that can be used by implementers to demonstrate compliance to the spec when evaluating a DMN model.
 * **Format**: A single DMN model might be tested with any number of different inputs, and each combination of model and input data is considered a test case.. A test case consists of
   * Some document on what the test is designed to test,
-  * Human readible / end user visual representation of the decision: a screen shot at the minimum,
+  * Human-readable / end user visual representation of the decision: a screenshot at the minimum,
     * a serialized DMN model,
     * a serialized set of input data,
     * serialized set of output/response data.
@@ -47,7 +47,7 @@ To be clear, there are several things that are not the goals of this group
 * Similarly, we strive to implement as much of the spec as possible, but if the spec is too expansive we may limit the scope to a subset that we all agree upon.
 * If the spec is ambiguous, we will make an interpretation of the spec according to what can actually be realized in running code, document that, and remain consistent to that in the future.
 
-## How to run the tests youself
+## How to run the tests yourself
 
 A couple of vendors provide [Java-based runners](/runners), which you can run using the following steps:
 1. Install a [Java Development Kit (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
@@ -60,3 +60,12 @@ $ mvn clean install -P camunda,drools,jdmn
 5. Check the log output for errors or exceptions and compare number of errors or skipped tests reported for each vendor with what's on the [TCK website](https://dmn-tck.github.io/tck/). For details on failed tests you can also look into the `target/surefire-reports` directory within each executed runner's sub-directory.
 
 If you have trouble executing a runner consult the `README.md` file in its sub-directory or contact the vendor.
+
+## Naming conventions
+
+* The `name` attribute of the `definitions` element should be the name of the file containing 
+  this definition without extension, for example, when file name is `0108-first-hitpolicy.dmn`
+  then `<definitions name="0108-first-hitpolicy">`. This rule makes all test cases unique, and deployable
+  all at once. The unique key is then the `name` attribute of `definitions` element.
+
+* The `id` attribute of the `definitions` should be UUID prefixed with underscore.

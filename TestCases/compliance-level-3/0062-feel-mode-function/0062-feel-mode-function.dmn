@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<definitions namespace="http://www.montera.com.au/spec/DMN/0062-feel-mode-function" name="0062-feel-mode-function" id="_i9fboPUUEeesLuP4RHs4vA" xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-
+<definitions namespace="http://www.montera.com.au/spec/DMN/0062-feel-mode-function"
+             name="0062-feel-mode-function"
+             id="_22b592fb-565d-4215-811b-e7bda5124aad"
+             xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/"
+             xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/"
+             xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/"
+             xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <description>FEEL built-in function 'mode(list)' in category list functions</description>
 
     <itemDefinition name="tNumberList" isCollection="true">
@@ -18,7 +24,8 @@
     </decision>
 
     <decision name="decision002" id="_decision002">
-        <description>Tests FEEL expression: 'mode([3, 6, 1, 9, 6, 1, 3])' and expects result: '[1,3,6] (list)'</description>
+        <description>Tests FEEL expression: 'mode([3, 6, 1, 9, 6, 1, 3])' and expects result: '[1,3,6] (list)'
+        </description>
         <question>Result of FEEL expression 'mode([3, 6, 1, 9, 6, 1, 3])'?</question>
         <allowedAnswers>[1,3,6] (list)</allowedAnswers>
         <variable typeRef="tNumberList" name="decision002"/>
@@ -107,17 +114,17 @@
         </literalExpression>
     </decision>
 
-<!--
-    <decision name="decision010" id="_decision010">
-        <description>Tests FEEL expression: 'mode(8, 2, 5, 7)' and expects result: '6 (list)'</description>
-        <question>Result of FEEL expression 'mode(8, 2, 5, 7)'?</question>
-        <allowedAnswers>6 (list)</allowedAnswers>
-        <variable typeRef="tNumberList" name="decision010"/>
-        <literalExpression>
-            <text>mode(8, 2, 5, 7)</text>
-        </literalExpression>
-    </decision>
--->
+    <!--
+        <decision name="decision010" id="_decision010">
+            <description>Tests FEEL expression: 'mode(8, 2, 5, 7)' and expects result: '6 (list)'</description>
+            <question>Result of FEEL expression 'mode(8, 2, 5, 7)'?</question>
+            <allowedAnswers>6 (list)</allowedAnswers>
+            <variable typeRef="tNumberList" name="decision010"/>
+            <literalExpression>
+                <text>mode(8, 2, 5, 7)</text>
+            </literalExpression>
+        </decision>
+    -->
 
     <decision name="decision011" id="_decision011">
         <description>Tests FEEL expression: 'mode(list:[6, 3, 9, 6, 6])' and expects result: '[6] (list)'</description>

@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<definitions namespace="http://www.montera.com.au/spec/DMN/0059-feel-all-function" name="0059-feel-all-function" id="_i9fboPUUEeesLuP4RHs4vA" xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<definitions namespace="http://www.montera.com.au/spec/DMN/0059-feel-all-function"
+             name="0059-feel-all-function"
+             id="_a8e3b989-e0d0-46ff-8e7c-1abe7912d991"
+             xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/"
+             xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/"
+             xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/"
+             xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <description>FEEL built-in function 'all(list)' in category list functions</description>
     <decision name="decision001" id="_decision001">
-        <description>Tests FEEL expression: 'all([true, false, true])' and expects result: 'false (boolean)'</description>
+        <description>Tests FEEL expression: 'all([true, false, true])' and expects result: 'false (boolean)'
+        </description>
         <question>Result of FEEL expression 'all([true, false, true])'?</question>
         <allowedAnswers>false (boolean)</allowedAnswers>
         <variable typeRef="boolean" name="decision001"/>
@@ -134,7 +142,8 @@
     </decision>
 
     <decision name="decision015" id="_decision015">
-        <description>Tests FEEL expression: 'all(list:[true, false, true])' and expects result: 'false (boolean)'</description>
+        <description>Tests FEEL expression: 'all(list:[true, false, true])' and expects result: 'false (boolean)'
+        </description>
         <question>Result of FEEL expression 'all(list:[true, false, true])'?</question>
         <allowedAnswers>false (boolean)</allowedAnswers>
         <variable typeRef="boolean" name="decision015"/>
@@ -144,7 +153,8 @@
     </decision>
 
     <decision name="decision016" id="_decision016">
-        <description>Tests FEEL expression: 'all(list:[true, true, true])' and expects result: 'true (boolean)'</description>
+        <description>Tests FEEL expression: 'all(list:[true, true, true])' and expects result: 'true (boolean)'
+        </description>
         <question>Result of FEEL expression 'all(list:[true, true, true])'?</question>
         <allowedAnswers>true (boolean)</allowedAnswers>
         <variable typeRef="boolean" name="decision016"/>
@@ -154,7 +164,8 @@
     </decision>
 
     <decision name="decision017" id="_decision017">
-        <description>Tests FEEL expression: 'all(list:[true, null, true])' and expects result: 'null (boolean)'</description>
+        <description>Tests FEEL expression: 'all(list:[true, null, true])' and expects result: 'null (boolean)'
+        </description>
         <question>Result of FEEL expression 'all(list:[true, null, true])'?</question>
         <allowedAnswers>null (boolean)</allowedAnswers>
         <variable typeRef="boolean" name="decision017"/>

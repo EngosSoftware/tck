@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<definitions namespace="https://github.com/dmn-tck/tck" name="feel-constants" id="_feel-constants" xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:triso="http://www.trisotech.com/2015/triso/modeling" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<definitions namespace="https://github.com/dmn-tck/tck"
+             name="0102-feel-constants"
+             id="_a763348f-758e-4e3c-a711-c64a9bad6bdb"
+             xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/"
+             xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/"
+             xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/"
+             xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/"
+             xmlns:triso="http://www.trisotech.com/2015/triso/modeling"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <decision name="Decision1" id="d_Decision1">
         <variable typeRef="string" name="Decision1"/>
         <literalExpression>
@@ -21,7 +29,9 @@
     <decision name="Decision4" id="d_Decision4">
         <variable typeRef="string" name="Decision4"/>
         <literalExpression>
-            <text>"thisIsSomeLongStringThatMustBeProcessedSoHopefullyThisTestPassWithItAndIMustWriteSomethingMoreSoItIsLongerAndLongerAndLongerAndLongerAndLongerTillItIsReallyLong"</text>
+            <text>
+                "thisIsSomeLongStringThatMustBeProcessedSoHopefullyThisTestPassWithItAndIMustWriteSomethingMoreSoItIsLongerAndLongerAndLongerAndLongerAndLongerTillItIsReallyLong"
+            </text>
         </literalExpression>
     </decision>
     <dmndi:DMNDI>

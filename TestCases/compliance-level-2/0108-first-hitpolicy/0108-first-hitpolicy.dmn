@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<definitions exporter="DMN Modeler" exporterVersion="6.1.2" namespace="http://www.trisotech.com/definitions/_a3ebbd98-af09-42f3-9099-4ae2204a1f54" name="multi-output-table" triso:logoChoice="Default" id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54" xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:triso="http://www.trisotech.com/2015/triso/modeling" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<definitions exporter="DMN Modeler" exporterVersion="6.1.2"
+             namespace="http://www.trisotech.com/definitions/_a3ebbd98-af09-42f3-9099-4ae2204a1f54"
+             name="0108-first-hitpolicy"
+             triso:logoChoice="Default"
+             id="_5e7455a4-b920-4a75-a783-45d388a584a2"
+             xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/"
+             xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/"
+             xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/"
+             xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/"
+             xmlns:triso="http://www.trisotech.com/2015/triso/modeling"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <extensionElements/>
     <itemDefinition isCollection="false" name="tApproval" label="tApproval">
         <itemComponent isCollection="false" name="Status" id="_20dfeb44-1c36-43cf-8819-63ce36819e90">
@@ -20,7 +30,8 @@
         <informationRequirement id="_8844434d-7d67-4a6b-8a3a-0a2946a461a4">
             <requiredInput href="#_8ff18665-84e9-49f2-a8df-8981b1844549"/>
         </informationRequirement>
-        <decisionTable hitPolicy="FIRST" outputLabel="Approval" typeRef="tApproval" id="_d81c5a51-b7c3-493c-ae8a-07ff798fb1bd">
+        <decisionTable hitPolicy="FIRST" outputLabel="Approval" typeRef="tApproval"
+                       id="_d81c5a51-b7c3-493c-ae8a-07ff798fb1bd">
             <input id="_bf7fc56f-ea82-464e-a541-f3221dc07e78">
                 <inputExpression typeRef="number">
                     <text>Age</text>
@@ -120,27 +131,34 @@
     <dmndi:DMNDI>
         <dmndi:DMNDiagram id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_D1">
             <dmndi:Size height="650.0" width="879.0"/>
-            <dmndi:DMNShape dmnElementRef="_3b2953a3-745f-4d2e-b55d-75c8c5ae653c" id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_s1">
+            <dmndi:DMNShape dmnElementRef="_3b2953a3-745f-4d2e-b55d-75c8c5ae653c"
+                            id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_s1">
                 <dc:Bounds height="61.0" width="154.0" x="362.0" y="150.0"/>
             </dmndi:DMNShape>
-            <dmndi:DMNShape dmnElementRef="_41effb45-b3c4-46ac-b1da-122b3e428a98" id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_s2">
+            <dmndi:DMNShape dmnElementRef="_41effb45-b3c4-46ac-b1da-122b3e428a98"
+                            id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_s2">
                 <dc:Bounds height="60.0" width="153.0" x="150.0" y="331.0"/>
             </dmndi:DMNShape>
-            <dmndi:DMNShape dmnElementRef="_5a4bdb64-f0ef-4978-9e03-6f1ae64a1f17" id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_s3">
+            <dmndi:DMNShape dmnElementRef="_5a4bdb64-f0ef-4978-9e03-6f1ae64a1f17"
+                            id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_s3">
                 <dc:Bounds height="60.0" width="153.0" x="363.0" y="331.0"/>
             </dmndi:DMNShape>
-            <dmndi:DMNShape dmnElementRef="_8ff18665-84e9-49f2-a8df-8981b1844549" id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_s4">
+            <dmndi:DMNShape dmnElementRef="_8ff18665-84e9-49f2-a8df-8981b1844549"
+                            id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_s4">
                 <dc:Bounds height="60.0" width="153.0" x="576.0" y="331.0"/>
             </dmndi:DMNShape>
-            <dmndi:DMNEdge dmnElementRef="_70cb0712-3439-47de-9d2a-2124c52ab84f" id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_e1">
+            <dmndi:DMNEdge dmnElementRef="_70cb0712-3439-47de-9d2a-2124c52ab84f"
+                           id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_e1">
                 <di:waypoint x="439.0" y="331.0"/>
                 <di:waypoint x="439.0" y="211.0"/>
             </dmndi:DMNEdge>
-            <dmndi:DMNEdge dmnElementRef="_141c68b1-39ad-45ac-a29d-d691ec57879c" id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_e2">
+            <dmndi:DMNEdge dmnElementRef="_141c68b1-39ad-45ac-a29d-d691ec57879c"
+                           id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_e2">
                 <di:waypoint x="226.0" y="331.0"/>
                 <di:waypoint x="439.0" y="211.0"/>
             </dmndi:DMNEdge>
-            <dmndi:DMNEdge dmnElementRef="_8844434d-7d67-4a6b-8a3a-0a2946a461a4" id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_e3">
+            <dmndi:DMNEdge dmnElementRef="_8844434d-7d67-4a6b-8a3a-0a2946a461a4"
+                           id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_e3">
                 <di:waypoint x="652.0" y="331.0"/>
                 <di:waypoint x="439.0" y="211.0"/>
             </dmndi:DMNEdge>

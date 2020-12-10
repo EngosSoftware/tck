@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<definitions namespace="https://github.com/dmn-tck/tck" name="feel-constants" id="_feel-constants" xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:triso="http://www.trisotech.com/2015/triso/modeling" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<definitions namespace="https://github.com/dmn-tck/tck"
+             name="0101-feel-constants"
+             id="_b82e7ceb-bdc9-4688-bde7-5cbf8ebce254"
+             xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/"
+             xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/"
+             xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/"
+             xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <decision name="Decision1" id="d_Decision1">
         <variable typeRef="number" name="Decision1"/>
         <literalExpression>
@@ -59,4 +66,3 @@
         </dmndi:DMNDiagram>
     </dmndi:DMNDI>
 </definitions>
-
