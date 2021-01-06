@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- Contributed to DMN TCK by StrayAlien -->
-<testCases xmlns="http://www.omg.org/spec/DMN/20160719/testcase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=""  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<testCases xmlns="http://www.omg.org/spec/DMN/20160719/testcase"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <modelName>0052-feel-exp-function.dmn</modelName>
     <labels>
         <label>Compliance Level 3</label>
@@ -13,7 +14,7 @@
         <description>Assert on positive number</description>
         <resultNode name="decision001" type="decision">
             <expected>
-                <value xsi:type="xsd:decimal">54.59815003</value>
+                <value xsi:type="xsd:decimal">54.598150033144236</value>
             </expected>
         </resultNode>
     </testCase>
@@ -21,7 +22,7 @@
         <description>Assert on negative number</description>
         <resultNode name="decision002" type="decision">
             <expected>
-                <value xsi:type="xsd:decimal">0.36787944</value>
+                <value xsi:type="xsd:decimal">0.36787944117144233</value>
             </expected>
         </resultNode>
     </testCase>

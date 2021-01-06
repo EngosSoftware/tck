@@ -2,18 +2,18 @@
 <definitions namespace="http://www.montera.com.au/spec/DMN/0052-feel-exp-function" name="0052-feel-exp-function" id="_i9fboPUUEeesLuP4RHs4vA" xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <description>FEEL built-in function 'exp(number)' in category numeric functions</description>
     <decision name="decision001" id="_decision001">
-        <description>Tests FEEL expression: 'exp(4)' and expects result: '2 (number)'</description>
+        <description>Tests FEEL expression: 'exp(4)' and expects result: '54.598150033144236 (number)'</description>
         <question>Result of FEEL expression 'exp(4)'?</question>
-        <allowedAnswers>2 (number)</allowedAnswers>
+        <allowedAnswers>54.598150033144236 (number)</allowedAnswers>
         <variable typeRef="number" name="decision001"/>
         <literalExpression>
             <text>exp(4)</text>
         </literalExpression>
     </decision>
     <decision name="decision002" id="_decision002">
-        <description>Tests FEEL expression: 'exp(-1)' and expects result: '0.36787944 (number)'</description>
+        <description>Tests FEEL expression: 'exp(-1)' and expects result: '0.36787944117144233 (number)'</description>
         <question>Result of FEEL expression 'exp(-1)'?</question>
-        <allowedAnswers>0.36787944 (number)</allowedAnswers>
+        <allowedAnswers>0.36787944117144233 (number)</allowedAnswers>
         <variable typeRef="number" name="decision002"/>
         <literalExpression>
             <text>exp(-1)</text>
