@@ -23,7 +23,7 @@
 		</inputNode>
 		<resultNode name="payment" type="decision">
 			<expected>
-				<value xsi:type="xsd:decimal">2778.69354943277</value>
+				<value xsi:type="xsd:decimal">2778.693549432746</value>
 			</expected>
 		</resultNode>
 	</testCase>
@@ -41,7 +41,7 @@
 		</inputNode>
 		<resultNode name="payment" type="decision">
 			<expected>
-				<value xsi:type="xsd:decimal">562.707359373292</value>
+				<value xsi:type="xsd:decimal">562.7073593732719</value>
 			</expected>
 		</resultNode>
 	</testCase>
@@ -59,7 +59,7 @@
 		</inputNode>
 		<resultNode name="payment" type="decision">
 			<expected>
-				<value xsi:type="xsd:decimal">2861.03377700389</value>
+				<value xsi:type="xsd:decimal">2861.033777003892</value>
 			</expected>
 		</resultNode>
 	</testCase>
