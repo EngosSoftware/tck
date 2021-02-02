@@ -47,9 +47,9 @@
         </literalExpression>
     </decision>
     <decision name="decision006" id="_decision006">
-        <description>Tests FEEL expression: 'exp(number:4)' and expects result: '2 (number)'</description>
+        <description>Tests FEEL expression: 'exp(number:4)' and expects result: '54.598150033144236 (number)'</description>
         <question>Result of FEEL expression 'exp(number:4)'?</question>
-        <allowedAnswers>2 (number)</allowedAnswers>
+        <allowedAnswers>54.598150033144236 (number)</allowedAnswers>
         <variable typeRef="number" name="decision006"/>
         <literalExpression>
             <text>exp(number:4)</text>

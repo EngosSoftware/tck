@@ -69,7 +69,7 @@
 		</resultNode>
 	</testCase>
 	<testCase id="002">
-		<description>Tests FEEL built-in function for regular expresssion matching (matches)</description>
+		<description>Tests FEEL built-in function for regular expression matching (matches)</description>
 		<inputNode name="A">
 			<value xsi:type="xsd:string">banana</value>
 		</inputNode>

@@ -213,28 +213,28 @@
         <description>Example from the DMN Specification, ref DMN13-125</description>
         <variable typeRef="number" name="decision017a"/>
         <literalExpression>
-            <text>modulo(10.1, 4.5)</text>
+            <text>decimal(modulo(10.1, 4.5),1)</text>
         </literalExpression>
     </decision>
     <decision name="decision017b" id="_decision017b">
         <description>Example from the DMN Specification, ref DMN13-125</description>
         <variable typeRef="number" name="decision017b"/>
         <literalExpression>
-            <text>modulo(-10.1, 4.5)</text>
+            <text>decimal(modulo(-10.1, 4.5),1)</text>
         </literalExpression>
     </decision>
     <decision name="decision017c" id="_decision017c">
         <description>Example from the DMN Specification, ref DMN13-125</description>
         <variable typeRef="number" name="decision017c"/>
         <literalExpression>
-            <text>modulo(10.1, -4.5)</text>
+            <text>decimal(modulo(10.1, -4.5),1)</text>
         </literalExpression>
     </decision>
     <decision name="decision017d" id="_decision017d">
         <description>Example from the DMN Specification, ref DMN13-125</description>
         <variable typeRef="number" name="decision017d"/>
         <literalExpression>
-            <text>modulo(-10.1, -4.5)</text>
+            <text>decimal(modulo(-10.1, -4.5),1)</text>
         </literalExpression>
     </decision>
     

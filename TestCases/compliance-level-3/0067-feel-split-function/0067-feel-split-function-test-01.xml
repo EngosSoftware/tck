@@ -37,10 +37,10 @@
                         <value xsi:type="xsd:string">c</value>
                     </item>
                     <item>
-                        <value xsi:type="xsd:string"></value>
+                        <value xsi:type="xsd:string"/>
                     </item>
                     <item>
-                        <value xsi:type="xsd:string"></value>
+                        <value xsi:type="xsd:string"/>
                     </item>
                 </list>
             </expected>

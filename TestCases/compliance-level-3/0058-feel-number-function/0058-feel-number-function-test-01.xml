@@ -97,7 +97,7 @@
         <description>will not error when decimal separator is null and decimal point exists</description>
         <resultNode name="decision008" type="decision">
             <expected>
-                <value xsi:type="xsd:decimal">1000000.00</value>
+                <value xsi:type="xsd:decimal">1000000</value>
             </expected>
         </resultNode>
     </testCase>

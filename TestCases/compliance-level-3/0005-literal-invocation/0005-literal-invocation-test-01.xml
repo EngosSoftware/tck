@@ -28,7 +28,7 @@
 		</inputNode>
 		<resultNode name="MonthlyPayment" type="decision">
 			<expected>
-				<value xsi:type="xsd:decimal">2878.69354943277</value>
+				<value xsi:type="xsd:decimal">2878.693549432746</value>
 			</expected>
 		</resultNode>
 	</testCase>
@@ -49,7 +49,7 @@
 		</inputNode>
 		<resultNode name="MonthlyPayment" type="decision">
 			<expected>
-				<value xsi:type="xsd:decimal">662.707359373292</value>
+				<value xsi:type="xsd:decimal">662.7073593732719</value>
 			</expected>
 		</resultNode>
 	</testCase>
@@ -70,7 +70,7 @@
 		</inputNode>
 		<resultNode name="MonthlyPayment" type="decision">
 			<expected>
-				<value xsi:type="xsd:decimal">2961.03377700389</value>
+				<value xsi:type="xsd:decimal">2961.033777003892</value>
 			</expected>
 		</resultNode>
 	</testCase>

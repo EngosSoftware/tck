@@ -958,9 +958,7 @@
     </decision>
 
     <decision name="deep_004" id="_deep_004">
-        <description>Tests FEEL expression: '[1,2,{a: [3,4]}] = [1,2,{a: [3,4], b: "foo"}]' and expects result: 'false
-            (boolean)'
-        </description>
+        <description>Tests FEEL expression: '[1,2,{a: [3,4]}] = [1,2,{a: [3,4], b: "foo"}]' and expects result: 'false (boolean)'</description>
         <question>Result of FEEL expression '[1,2,{a: [3,4]}] = [1,2,{a: [3,4], b: "foo"}]'?</question>
         <allowedAnswers>false (boolean)</allowedAnswers>
         <variable typeRef="boolean" name="deep_004"/>

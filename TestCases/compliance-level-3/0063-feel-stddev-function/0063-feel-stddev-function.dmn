@@ -12,7 +12,7 @@
         <allowedAnswers>4 (number)</allowedAnswers>
         <variable typeRef="number" name="decision001"/>
         <literalExpression>
-            <text>stddev([2, 4, 7, 5])</text>
+            <text>decimal(stddev([2, 4, 7, 5]),13)</text>
         </literalExpression>
     </decision>
 
@@ -106,7 +106,7 @@
         <allowedAnswers>4 (number)</allowedAnswers>
         <variable typeRef="number" name="decision009"/>
         <literalExpression>
-            <text>stddev(2, 4, 7, 5)</text>
+            <text>decimal(stddev(2, 4, 7, 5),13)</text>
         </literalExpression>
     </decision>
 
@@ -128,7 +128,7 @@
         <allowedAnswers>6 (number)</allowedAnswers>
         <variable typeRef="number" name="decision011"/>
         <literalExpression>
-            <text>stddev(list:[2, 4, 7, 5])</text>
+            <text>decimal(stddev(list:[2, 4, 7, 5]),13)</text>
         </literalExpression>
     </decision>
 

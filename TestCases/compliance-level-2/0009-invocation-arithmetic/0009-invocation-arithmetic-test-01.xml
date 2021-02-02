@@ -48,7 +48,7 @@
 		</inputNode>
 		<resultNode name="MonthlyPayment" type="decision">
 			<expected>
-				<value xsi:type="xsd:decimal">662.7073593732919</value>
+				<value xsi:type="xsd:decimal">662.7073593732719</value>
 			</expected>
 		</resultNode>
 	</testCase>
